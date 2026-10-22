@@ -11,8 +11,8 @@ Linux and Windows host scripts to remove the eMudhra certificates that may exist
 Created in response to the revelation that the eMudhra certificate's 'secret key' had been found to be a single digit...  '4' .   CISR Technical takes no responsibility for the usage, operation or consequences of running the scripts provided, these were developed for the **purpose of sanitizing CISR systems only **- **should you choose to run them; it's all on you buddy**.
 
 #===========================================================================#
-**
-DISCLAIMER** - **You are responsible** for the consequences of using these scripts, **not us **- all script contents are plain and auditable, check variables and run in a sandboxed environment to test for potential ill effects and perform appropriate checks & testing before use in any production system or live services.
+
+**DISCLAIMER** - **You are responsible** for the consequences of using these scripts, **not us** - all script contents are plain and auditable, check variables and run in a sandboxed environment to test for potential ill effects and **perform appropriate checks & testing** before use in any production system or live services.
 
 CISR Technical accepts no liability or responsibility for the use of the scripts, applications or software provided via GitHub. By downloading,
 installing or using any application, software or script, the user accepts full responsibility, liability and ownership of the actions they perform with it and of any and all potential or realised consequences arising from its use.
