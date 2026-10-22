@@ -53,12 +53,14 @@ A script can only distrust a CA on the machine it runs on; true global invalidat
 
 USAGE: 
 
-#Linux hosts (Ubuntu, Debian & derivatives):
+Linux hosts (Ubuntu, Debian & derivatives):
+
   sudo chmod +x <path-to-file>/remove-emudhra.sh
   ./remove-elmudhra.sh
 
-#Windows hosts (Win 11/10):
-  <path-to-file> .\remove-emudhra.bat
+Windows hosts (Win 11/10):
+
+  .\remove-emudhra.bat
 
 #===========================================================================#
 
