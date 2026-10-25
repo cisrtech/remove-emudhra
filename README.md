@@ -62,6 +62,23 @@ Windows hosts (Win 11/10):
 
   .\remove-emudhra.bat
 
+
+MacOS hosts:
+
+  # 1. Save the script
+cat > remove-emudhra-certificates.sh << 'SCRIPT'
+# [Paste the script above]
+SCRIPT
+
+# 2. Make executable
+chmod +x remove-emudhra-mac.sh
+
+# 3. Test dry-run (recommended first)
+./remove-emudhra-certificates.sh --dry-run
+
+# 4. Run with permissions
+sudo ./remove-emudhra-certificates.sh
+
 #===========================================================================#
 
 **DISCLAIMER REMINDER** - You are responsible for the consequences of using these scripts, not us - all script contents are plain and auditable, check variables and run in a sandbox for potential ill effects before using on any production system.
